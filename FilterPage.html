@@ -1,0 +1,405 @@
+<html>
+
+<head>
+    <title>Filter Page</title>
+    <link rel="stylesheet" href="FilterPage.css" />
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="header">
+        <div class="header-logo">
+            <b>Aanandas!</b>
+        </div>
+
+        <div style="float: right;">
+            <div class="login">Login</div>
+            <div class="account">Create an account</div>
+        </div>
+    </div>
+
+    <div class="main">
+        <img src="./Images/magnifying-glass-solid.svg" alt="" class="magnifying-glass">
+        <div>
+       <!-- Search Bar -->
+            <input class="search" type="text" name="" placeholder="Search For a Restaurant Or Dishes"><i class="fa-regular magnifying-glass"></i>
+        </div>>    
+        <!-- 3 Boxes -->
+        <!-- Filter Block -->
+        <div class="filter-block" style="display: inline-block;">
+            <span id="filter">Filter</span>
+            <span id="cuisine-filter">Cuisine Filter</span>
+            <div class="food">
+                <input type="checkbox" name="All">All <br>
+                <input type="checkbox" name="North indian">North indian <br>
+                <input type="checkbox" name="South indian" >South indian <br>
+                <input type="checkbox" name="Chinese" >Chinese <br>
+                <input type="checkbox" name="Fast food" >Fast food <br>
+                <input type="checkbox" name="Street food">Street food <br>
+                <hr>
+                <p id="cost-filter">Cost Filter</p>
+                <input type="radio" name="All" > All <br>
+                <input type="radio" name="All"> 100-300 <br>
+                <input type="radio" name="All"> 301-500 <br>
+                <input type="radio" name="All"> 501-700 <br> 
+                <input type="radio" name="All"> 701-900 <br>
+                <input type="radio" name="All"> 901-1500<br>
+            </div>    
+        </div>
+        <!-- Result Blocks -->
+        <div class="result-container">
+            <div class="container">
+                <div class="row">
+                    <div class="col-1">
+                        <img src="Images/o1.jpeg" alt="offer 1">
+                        <h5>GRAB 60% OFF</h5>
+                    </div>
+                    <div class="col-1">
+                        <img src="Images/o2.jpeg" alt="offer 2">
+                        <h5>ENJOY 40% OFF! USE</h5>
+                    </div>
+                    <div class="col-1">  
+                        <img src="Images/o3.jpeg" alt="offer 3">
+                        <h5>GRAB 60% OFF! USE</h5>
+                    </div>
+                    <div class="col-1">    
+                        <img src="Images/o4.jpeg" alt="offer 4">   
+                        <h5>ENJOY 10% OFF! USE</h5>
+                    </div>  
+                </div>
+            </div>
+            <!-- North Indian Food items -->
+            <div class="small-container">
+                <h2 class="title"> North indian </h2>
+                <div class="row">
+                    <div class="col">
+                        <div class="subdiv1">
+                            <img src="Images/n1.jpeg" alt="Paratha">
+                        </div>
+                        <div class="subdiv2">
+                            <h4>Paratha Box</h4>
+                            <p>North Indian,Punjab,Indian,Home Food,
+                               Combo,Beverages</p>
+                            <div class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-o"></i>
+                                <span style="padding:30px;">42 MINS</span>
+                                <span><i style="color:#b8b8b9;padding: 10px;" class="fa fa-rupee"></i>60</span>         
+                            </div>
+                        </div> 
+                   </div>
+                   <div class="col">
+                        <div class="subdiv1">
+                            <img src="Images/n2.jpeg" alt="Paratha">
+                        </div>
+                        <div class="subdiv2">
+                            <h4>BQ Restaurant</h4>
+                            <p>North Indian, Home Food,
+                            Combo,uices</p>
+                            <div class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-o"></i>
+                                <span style="padding:30px;">33 MINS</span>
+                                <span><i style="color:#b8b8b9;padding: 10px;" class="fa fa-rupee"></i>150</span>                              
+                            </div>
+                        </div> 
+                    </div> 
+                    <div class="col">
+                        <div class="subdiv1">
+                            <img src="Images/n3.jpeg" alt="Paratha">
+                        </div>
+                        <div class="subdiv2">
+                            <h4>Hang Out</h4>
+                            <p>Arabian biriyani, Tandoor, Kebbas, Chinese,
+                               North Indian,Juices,Pizzas</p>
+                            <div class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-o"></i>
+                                <i class="fa fa-star-o"></i>
+                                <span style="padding:30px;">30 MINS</span>
+                                <span><i style="color:#b8b8b9;padding: 10px;" class="fa fa-rupee"></i>200</span>                              
+                            </div>
+                        </div> 
+                    </div> 
+                    <div class="col">
+                        <div class="subdiv1">
+                            <img src="Images/n4.jpeg" alt="Paratha">
+                        </div>
+                        <div class="subdiv2">
+                            <h4>The Biriyani Life</h4>
+                            <p>Biriyani, Hydrabad, Lucknow, North Indian
+                            Mughlai, Combo Desserts</p>
+                            <div class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-o"></i>
+                                <span style="padding:30px;">28 MINS</span>
+                                <span><i style="color:#b8b8b9;padding: 10px;" class="fa fa-rupee"></i>200</span>                              
+                            </div>
+                        </div> 
+                    </div>    
+               </div>
+            </div>
+            <!-- South Indian Food items -->
+            <div class="small-container">
+                <h2 class="title"> South indian </h2>
+                <div class="row">
+                    <div class="col">
+                        <div class="subdiv1">
+                            <img src="Images/s1.jpg" alt="Paratha">
+                        </div>
+                        <div class="subdiv2">
+                            <h4>IDC</h4>
+                            <p>South Indian</p>
+                            <div class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-o"></i>
+                                <span style="padding:30px;">29 MINS</span>
+                                <span><i style="color:#b8b8b9;padding: 10px;" class="fa fa-rupee"></i>120</span>         
+                            </div>
+                        </div> 
+                   </div>
+                   <div class="col">
+                        <div class="subdiv1">
+                            <img src="Images/s2.jpg" alt="Paratha">
+                        </div>
+                        <div class="subdiv2">
+                            <h4>Sree Annapoorna</h4>
+                            <p>Indian, South Indian, Home Food,
+                                Desserts</p>
+                            <div class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-o"></i>
+                                <i class="fa fa-star-o"></i>
+                                <span style="padding:30px;">25 MINS</span>
+                                <span><i style="color:#b8b8b9;padding: 10px;" class="fa fa-rupee"></i>250</span>                              
+                            </div>
+                        </div> 
+                    </div> 
+                    <div class="col">
+                        <div class="subdiv1">
+                            <img src="Images/s3.jpg" alt="Paratha">
+                        </div>
+                        <div class="subdiv2">
+                            <h4>Haribhavanam</h4>
+                            <p>South Indian, Chettinad, chinese</p>
+                            <div class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-o"></i>
+                                <i class="fa fa-star-o"></i>
+                                <span style="padding:30px;">27 MINS</span>
+                                <span><i style="color:#b8b8b9;padding: 10px;" class="fa fa-rupee"></i>300</span>                              
+                            </div>
+                        </div> 
+                    </div> 
+                    <div class="col">
+                        <div class="subdiv1">
+                            <img src="Images/s4.jpg" alt="Paratha">
+                        </div>
+                        <div class="subdiv2">
+                            <h4>Aagaram Restaurant</h4>
+                            <p>South Indian</p>
+                            <div class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-o"></i>
+                                <span style="padding:30px;">31 MINS</span>
+                                <span><i style="color:#b8b8b9;padding: 10px;" class="fa fa-rupee"></i>250</span>                              
+                            </div>
+                        </div> 
+                    </div>    
+               </div>
+            </div>
+
+             <!-- Street Food items -->
+
+             <div class="small-container">
+                <h2 class="title">Street Food </h2>
+                <div class="row">
+                    <div class="col">
+                        <div class="subdiv1">
+                            <img src="Images/st1.jpeg" alt="Paratha">
+                        </div>
+                        <div class="subdiv2">
+                            <h4>IDC</h4>
+                            <p>South Indian</p>
+                            <div class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-o"></i>
+                                <span style="padding:30px;">29 MINS</span>
+                                <span><i style="color:#b8b8b9;padding: 10px;" class="fa fa-rupee"></i>120</span>         
+                            </div>
+                        </div> 
+                   </div>
+                   <div class="col">
+                        <div class="subdiv1">
+                            <img src="Images/st2.jpeg" alt="Paratha">
+                        </div>
+                        <div class="subdiv2">
+                            <h4>Sree Annapoorna</h4>
+                            <p>Indian, South Indian, Home Food,
+                                Desserts</p>
+                            <div class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-o"></i>
+                                <i class="fa fa-star-o"></i>
+                                <span style="padding:30px;">25 MINS</span>
+                                <span><i style="color:#b8b8b9;padding: 10px;" class="fa fa-rupee"></i>250</span>                              
+                            </div>
+                        </div> 
+                    </div> 
+                    <div class="col">
+                        <div class="subdiv1">
+                            <img src="Images/st3.jpg" alt="Paratha">
+                        </div>
+                        <div class="subdiv2">
+                            <h4>Haribhavanam</h4>
+                            <p>South Indian, Chettinad, chinese</p>
+                            <div class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-o"></i>
+                                <i class="fa fa-star-o"></i>
+                                <span style="padding:30px;">27 MINS</span>
+                                <span><i style="color:#b8b8b9;padding: 10px;" class="fa fa-rupee"></i>300</span>                              
+                            </div>
+                        </div> 
+                    </div> 
+                    <div class="col">
+                        <div class="subdiv1">
+                            <img src="Images/st4.jpg" alt="Paratha">
+                        </div>
+                        <div class="subdiv2">
+                            <h4>Aagaram Restaurant</h4>
+                            <p>South Indian</p>
+                            <div class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-o"></i>
+                                <span style="padding:30px;">31 MINS</span>
+                                <span><i style="color:#b8b8b9;padding: 10px;" class="fa fa-rupee"></i>250</span>                              
+                            </div>
+                        </div> 
+                    </div>    
+               </div>
+            </div>
+
+             <!-- Chinese Food items -->
+             <div class="small-container">
+                <h2 class="title"> Chinese</h2>
+                <div class="row">
+                    <div class="col">
+                        <div class="subdiv1">
+                            <img src="Images/c1.jpeg" alt="Paratha">
+                        </div>
+                        <div class="subdiv2">
+                            <h4>Meat And Eat</h4>
+                            <p>Chinese, Bevereges, Punjabi,
+                                Desserts.
+                            </p>
+                            <div class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-o"></i>
+                                <span style="padding:30px;">34 MINS</span>
+                                <span><i style="color:#b8b8b9;padding: 10px;" class="fa fa-rupee"></i>400</span>         
+                            </div>
+                        </div> 
+                   </div>
+                   <div class="col">
+                        <div class="subdiv1">
+                            <img src="Images/c2.jpeg" alt="Paratha">
+                        </div>
+                        <div class="subdiv2">
+                            <h4>Street Arabia</h4>
+                            <p>South Indian, Chinese, 
+                                Chat, Juises, Contenential.
+                            </p>
+                            <div class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-o"></i>
+                                <span style="padding:30px;">34 MINS</span>
+                                <span><i style="color:#b8b8b9;padding: 10px;" class="fa fa-rupee"></i>250</span>                              
+                            </div>
+                        </div> 
+                    </div> 
+                    <div class="col">
+                        <div class="subdiv1">
+                            <img src="Images/c3.jpg" alt="Paratha">
+                        </div>
+                        <div class="subdiv2">
+                            <h4>Surabhi Foods</h4>
+                            <p> chinese <br>
+                                Bevereges, Desserts
+                            </p>
+                            <div class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-o"></i>
+                                <i class="fa fa-star-o"></i>
+                                <span style="padding:30px;">41 MINS</span>
+                                <span><i style="color:#b8b8b9;padding: 10px;" class="fa fa-rupee"></i>200</span>                              
+                            </div>
+                        </div> 
+                    </div> 
+                    <div class="col">
+                        <div class="subdiv1">
+                            <img src="Images/c4.jpg" alt="Paratha">
+                        </div>
+                        <div class="subdiv2">
+                            <h4>Big Belly Delly</h4>
+                            <p>Fast Food, Chinese, 
+                                Biriyani
+                            </p>
+                            <div class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-o"></i>
+                                <span style="padding:30px;">44 MINS</span>
+                                <span><i style="color:#b8b8b9;padding: 10px;" class="fa fa-rupee"></i>250</span>                              
+                            </div>
+                        </div> 
+                    </div>    
+               </div>
+            </div>
+        </div> 
+    </div>
+
+</body>
+</html>
